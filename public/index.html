@@ -32,8 +32,9 @@
             </li>
           </ul>
         </nav>
-        <main>
-          <div>
+        <main class="px-16 py-6 bg-gray-800">
+          <div class="w-10 h-10 hidden bg-slate-500 md:bg-red-500"></div>
+          <div class="flex justify-end">
             <a href="#">Login</a>
             <a href="#">Signup</a>
           </div>
@@ -44,13 +45,18 @@
 
           <div>
             <h4>Latest Recipes</h4>
-            <div>
+            <div class="mt-8">
               <!-- Cards go here -->
-              <div>
-                <img src="#" alt="" />
-                <div>
-                  <span>5 Been Chili Stew</span>
-                  <span>Recipe by Mario</span>
+              <div class="card">
+                <img class="w-full h-32 sm:h-48 object-cover" src="./images/1.jpeg" alt="" />
+                <div class="m-4">
+                  <span class="font-bold">5 Been Chili Stew</span>
+                  <spanc class="block">Recipe by Mario</span>
+                </div>
+                <div class="badge">
+                  <span>
+                    25minutes
+                  </span>
                 </div>
               </div>
             </div>
@@ -59,8 +65,8 @@
             <div>
               <!-- Cards go here -->
             </div>
-            <div>
-              <div>Load more ...</div>
+            <div class="flex md:justify-center">
+              <div class="bg-green-300">Load more ...</div>
             </div>
           </div>
         </main>
